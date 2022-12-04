@@ -12,7 +12,6 @@
         "sourceType": "module"
     },
     "rules": {
-        "class-methods-use-this": ["error", { "exceptMethods": ["classNames", "nameControl"] }],
-        "no-unused-vars": "off"
+        
     }
 }

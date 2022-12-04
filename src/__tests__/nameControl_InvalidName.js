@@ -6,6 +6,7 @@ test.each([
 ])('Testing for an invalid name. Name "%s"', (names) => {
   function err() {
     const testing = new Character(names, 'Bowman');
+    return testing;
   }
   expect(err).toThrow();
 });
